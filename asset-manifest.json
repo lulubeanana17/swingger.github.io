@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/swingger.github.io/static/css/main.88ff39e4.chunk.css",
-    "main.js": "/swingger.github.io/static/js/main.1f96a2e1.chunk.js",
-    "main.js.map": "/swingger.github.io/static/js/main.1f96a2e1.chunk.js.map",
+    "main.js": "/swingger.github.io/static/js/main.7a4242fe.chunk.js",
+    "main.js.map": "/swingger.github.io/static/js/main.7a4242fe.chunk.js.map",
     "runtime-main.js": "/swingger.github.io/static/js/runtime-main.30590e77.js",
     "runtime-main.js.map": "/swingger.github.io/static/js/runtime-main.30590e77.js.map",
     "static/js/2.8da62df0.chunk.js": "/swingger.github.io/static/js/2.8da62df0.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.30590e77.js",
     "static/js/2.8da62df0.chunk.js",
     "static/css/main.88ff39e4.chunk.css",
-    "static/js/main.1f96a2e1.chunk.js"
+    "static/js/main.7a4242fe.chunk.js"
   ]
 }
