@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/swingger.github.io.git/static/css/main.88ff39e4.chunk.css",
+    "main.js": "/swingger.github.io.git/static/js/main.be0d9d8b.chunk.js",
+    "main.js.map": "/swingger.github.io.git/static/js/main.be0d9d8b.chunk.js.map",
+    "runtime-main.js": "/swingger.github.io.git/static/js/runtime-main.4d82a8b2.js",
+    "runtime-main.js.map": "/swingger.github.io.git/static/js/runtime-main.4d82a8b2.js.map",
+    "static/js/2.c7dc6e34.chunk.js": "/swingger.github.io.git/static/js/2.c7dc6e34.chunk.js",
+    "static/js/2.c7dc6e34.chunk.js.map": "/swingger.github.io.git/static/js/2.c7dc6e34.chunk.js.map",
+    "index.html": "/swingger.github.io.git/index.html",
+    "static/css/main.88ff39e4.chunk.css.map": "/swingger.github.io.git/static/css/main.88ff39e4.chunk.css.map",
+    "static/js/2.c7dc6e34.chunk.js.LICENSE.txt": "/swingger.github.io.git/static/js/2.c7dc6e34.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d82a8b2.js",
+    "static/js/2.c7dc6e34.chunk.js",
+    "static/css/main.88ff39e4.chunk.css",
+    "static/js/main.be0d9d8b.chunk.js"
+  ]
+}
