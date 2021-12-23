@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mulish&family=Open+Sans&family=PT+Serif&family=Poppins&family=Roboto:wght@100;300;400&family=Zen+Kaku+Gothic+New&display=swap');
+
+nav {
+    padding-top: 3em;
+    height: 100%;
+    width: 30%;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+li {
+    margin: .5em 2em;
+}
+i {
+    font-size: 35px;
+    color: rgb(29, 118, 235);
+    margin: 0 1em;
+    padding: .3em;
+    border-radius: 1em;
+}
+.Profile {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: "Open Sans";
+    margin: 1em;
+    padding: .3em;
+    border-radius: 1em;
+}
+i:hover, .Profile:hover {
+    background-color: rgb(224, 222, 222);
+    transition: all .3s;
+}
+
+@media only screen and (max-width: 1025px) {
+    .Profile {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    nav {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 426px) {
+    nav {
+        width: 10%;
+    }
+    li {
+        margin: 0;
+    }
+    i {
+        font-size: 25px;
+        margin: 0;
+        padding: .3em;
+    }
+    .Profile {
+        margin: 0;
+        padding: 0;
+    }
+    .Profile i {
+        margin: 0;
+    }
+}

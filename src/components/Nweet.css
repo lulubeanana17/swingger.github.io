@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mulish&family=Open+Sans&family=PT+Serif&family=Poppins&family=Roboto:wght@100;300;400&family=Zen+Kaku+Gothic+New&display=swap');
+
+.nweetContainer {
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans";
+    font-size: 15px;
+    border-bottom: 1px solid rgb(224, 222, 222);
+    padding: .5em 1em;
+}
+.nweetUser {
+    font-size: 15px;
+}
+.nweetText {
+    font-size: 15px;
+    font-weight: 300;
+}
+.nweetImage {
+    width: 100%;
+    height: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.nweetButton {
+    align-self: flex-end;
+}
+.nweetButton button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.nweetButton i {
+    font-size: 15px;
+    padding: .5em;
+    margin: 0;
+}.nweetButton i:hover {
+    color: #fff;
+    background-color: rgb(76, 148, 241);
+}
+
+
+.nweetEditContainer {
+    display: flex;
+    flex-direction: column;
+}
+.nweetEditText {
+    border-radius: .5em;
+    border: 1px solid rgb(76, 148, 241);
+    font-family: "Open Sans";
+    font-size: 15px;
+    padding: .5em;
+    resize: none;
+    margin-bottom: 1em;
+}
+.nweetEditText:focus {
+    outline: none;
+}
+.nweetEditBtnContainer {
+    align-self: flex-end;
+}
+.nweetEditCancel {
+    font-family: "Open Sans";
+    font-size: 13px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: .3em .5em;
+    border-radius: .7em;
+    margin-right: .5em;
+}
+.nweetEditCancel:hover {
+    background-color: rgb(39, 39, 39);
+    transition: all .3s;
+}
+.nweetEditUpdate {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.nweetEditUpdate i {
+    font-size: 15px;
+    margin: 0;
+    padding: .5em;
+}
+.nweetEditUpdate i:hover {
+    color: #fff;
+    background-color: rgb(76, 148, 241);
+}

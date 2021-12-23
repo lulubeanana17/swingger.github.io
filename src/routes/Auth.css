@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mulish&family=Open+Sans&family=PT+Serif&family=Poppins&family=Roboto:wght@100;300;400&family=Zen+Kaku+Gothic+New&display=swap');
+
+.authContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(76, 148, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans";
+}
+.authTitle {
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: .2em;
+    margin: 0;
+}
+.authSubTitle {
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 3em;
+}
+.loginContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.loginBlank {
+    display: flex;
+    flex-direction: column;
+}
+.loginBlank input {
+    font-size: 15px;
+    border: none;
+    border-radius: .3em;
+    margin: .3em;
+    padding: .3em;
+}
+.loginBlank input:focus {
+    outline: none;
+}
+.loginButton {
+    font-size: 15px;
+    border: none;
+    border-radius: .3em;
+    color: #fff;
+    background-color: #000;
+    margin: .3em;
+    padding: .5em .3em;
+}
+.loginButton:hover {
+    background-color: rgb(255, 254, 254);
+    color: #000;
+    transition: all .3s;
+}
+.loginSwitching {
+    font-size: 15px;
+    margin-bottom: 1.5em;
+    cursor: pointer;
+}
+.loginSwitching:hover {
+    color: #fff;
+    transition: all .3s;
+}
+.otherLoginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.otherButton {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: .3em;
+    margin: .3em;
+    padding: .3em;
+    width: 100%;
+    background-color: #fff;
+    cursor: pointer;
+}
+.otherButton:hover {
+    background-color: rgb(203, 227, 248);
+    transition: all .3s;
+}
+.otherButton i {
+    font-size: 15px;
+    color: rgb(76, 148, 241);
+    margin: 0;
+    padding: 0;
+    margin-left: 1em;
+}

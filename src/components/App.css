@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mulish&family=Open+Sans&family=PT+Serif&family=Poppins&family=Roboto:wght@100;300;400&family=Zen+Kaku+Gothic+New&display=swap');
+
+.AppOutsideContainer {
+    display: flex;
+}
+.AppContainer {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100vh;
+    position: relative;
+}
+.AppContainerTitle {
+    font-family: "Open Sans";
+    background-color: rgb(211, 53, 53);
+    text-align: center;
+    color: #fff;
+    padding: .95em;
+    margin: 0;
+}
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    border-top: 1px solid rgb(224, 222, 222);
+    z-index: 2;
+}
+.newsContainer {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+.newsContainer::-webkit-scrollbar {
+    display: none;
+}
+.newsArticle {
+    width: 90%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid rgb(224, 222, 222);
+}
+.newsArticle a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+.newsImage {
+    width: 100%;
+    height: 200px;
+}
+.newsTitle {
+    color: #000;
+    font-family: "Open Sans";
+
+}
+@media only screen and (max-width: 769px) {
+    .AppContainer {
+        display: none;
+    }
+}

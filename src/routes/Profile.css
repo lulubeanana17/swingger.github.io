@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mulish&family=Open+Sans&family=PT+Serif&family=Poppins&family=Roboto:wght@100;300;400&family=Zen+Kaku+Gothic+New&display=swap');
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100vh;
+    border-left: 1px solid rgb(224, 222, 222);
+    border-right: 1px solid rgb(224, 222, 222);
+}
+.profileSignContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgb(224, 222, 222);
+    background-color: rgb(76, 148, 241);
+    color: #fff;
+    font-family: "Open Sans";
+    transition: margin-top .5s;
+}
+.profileSignButton {
+    margin-top: 3em;
+    font-size: 15px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: .5em .8em;
+    border-radius: 1em;
+}
+.profileSignButton:hover {
+    background-color: rgb(41, 41, 41);
+    transition: all .3s;
+}
+.sensor {
+    width: 100%;
+    height: .1px;
+}
+.nweets {
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+.nweets::-webkit-scrollbar {
+    display: none;
+}
+
+@media only screen and (max-width: 769px) {
+    .profileContainer {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 426px) {
+    .profileContainer {
+        width: 90%;
+    }
+}
