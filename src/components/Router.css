@@ -1,3 +1,6 @@
 HashRouter {
     display: flex;
 }
+.auth {
+    width: 100%;
+}
