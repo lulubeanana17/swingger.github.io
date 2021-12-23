@@ -18,7 +18,7 @@ const Router = ({isLoggedIn, userObj}) => {
             </Route>
           </>
         ) : (
-          <Route exact={true} path={"/"} element={<Auth />} className="auth">
+          <Route exact={true} path={"/"} element={<Auth />}>
           </Route>
         )}
       </Routes>
