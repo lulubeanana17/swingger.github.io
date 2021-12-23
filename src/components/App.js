@@ -7,6 +7,7 @@ import "./App.css";
 function App() {
   const [init, setInit] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [news, setNews] = useState(true);
   const [userObj, setUserObj] = useState("");
   const auth = getAuth();
   const [newsArray, setNewsArray] = useState([]);
@@ -14,7 +15,8 @@ function App() {
   const newsApi = async() => {
     await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=8eddaa72e664440ebd783d3d293e9fa4`).
     then(res => res.json())
-    .then((result) => setNewsArray(result.articles));
+    .then((result) => setNewsArray(result.articles))
+    .catch((error) => setNewsArray([]), setNews(false));
   };
  
   useEffect(() => {
@@ -38,7 +40,7 @@ function App() {
       ) : (
         "Initializing"
       )}
-      {isLoggedIn ? (
+      {isLoggedIn && news ? (
         <div className="AppContainer">
         <h4 className='AppContainerTitle'>Breaking News</h4>
         <div className="newsContainer">
