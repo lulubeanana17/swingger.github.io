@@ -22,7 +22,7 @@ const Profile = ({userObj}) => {
         });
     };
     const getMyNweets = async() => {
-        const q = query(collection(db, "nweets"), where("creatorId", "==", userObj.uid), orderBy("createdAt"));
+        const q = query(collection(db, "nweets"), where("creatorId", "==", userObj.uid), orderBy("createdAt", "desc"));
         const querySnapshot = await getDocs(q);
 
         querySnapshot.forEach((doc) => {
